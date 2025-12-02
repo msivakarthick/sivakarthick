@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    border: 5px solid red;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* BACKGROUND */
+.bg-success {
+    background-image: url(./gif.gif) !important;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* HEADER NAME SECTION */
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.name h1 {
+    font-size: 120px;
+    margin-top: 80px;
+}
+.name h5 {
+    font-size: 50px;
+    margin-top: 30px;
+}
+.name p {
+    font-size: 25px;
+    width: 50%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* CONTACT BUTTON */
+.con {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.con button {
+    padding: 5px 10px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.con i {
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+}
+
+/* NAVIGATION BAR */
+.nav {
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+/* MARQUEE */
+marquee {
+    font-size: 90px;
+    margin-top: 100px;
+}
+
+/* ABOUT BUTTON */
+.about button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.about i {
+    padding-left: 10px;
+    animation-name: hover;
+    animation-duration: 2s;
+}
+.about:hover i {
+    transform: rotate(50deg);
+    transition-duration: 3s;
+}
+
+/* BOXES FLEX CONTAINERS */
+.box1, .box3, .boxs, .all, .whole, .images, .box2, .box4 {
+    display: flex;
+    flex-wrap: wrap; /* enable wrapping */
+    justify-content: center;
+    align-items: center;
+}
+
+/* BOX2 SECTION */
+.box2 {
+    justify-content: space-around;
+    margin-top: 100vh;
+}
+.img1 {
+    width: 50%;
+    max-width: 400px;
+    padding-left: 0;
+}
+.siva {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+.inner {
+    width: 40%;
+    max-width: 500px;
+}
+.inner h2 {
+    width: 80%;
+}
+.inner p {
+    width: 90%;
+    font-size: 20px;
+}
+
+/* SKILL BOX (.box4) */
+.box4 {
+    justify-content: space-around;
+    align-items: center;
+}
+.picture {
+    width: 40%;
+    position: relative;
+}
+.para {
+    width: 35%;
+}
+
+/* SKILL BARS */
+.html, .css, .react, .java {
+    height: 30px;
+    width: 60px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.html { background-color: orange; }
+.css { background-color: purple; }
+.react { background-color: deeppink; }
+.java { background-color: rgb(191, 188, 13); }
+
+/* PROJECT SECTION */
+.project h1 {
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images img {
+    width: 18%;
+    max-width: 300px;
+    height: auto;
+    margin: 10px;
+}
+.project h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* EDUCATION BOXES */
+.box5 {
+    position: relative;
+    height: 700px;
+    width: 30%;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.container1 {
+    width: 100%;
+    background-color: rgb(54, 50, 50);
+    height: 400px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    padding: 20px;
+    position: relative;
+}
+.container1 img {
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+/* FOOTER WHOLE SECTION */
+.whole {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 100px;
+}
+.first {
+    width: 40%;
+    min-width: 250px;
+}
+.second {
+    width: 20%;
+    min-width: 200px;
+}
+.Three {
+    width: 20%;
+    min-width: 200px;
+}
+.icon {
+    display: flex;
+}
+.icon i {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+/* COLORS */
+.blue {
+    color: rgb(53, 145, 176);
+}
+.full {
+    color: lightblue;
+}
+
+/* MEDIA QUERIES FOR MOBILE */
+@media (max-width: 768px) {
+    .name h1 { font-size: 40px; }
+    .name h5 { font-size: 20px; }
+    .name p { width: 90%; font-size: 18px; }
+
+    .img1, .inner, .box4, .images, .all, .whole, .box5, .para {
+        width: 90%;
+        margin: 10px auto;
+        display: block;
+        padding: 0;
+    }
+
+    .images img {
+        width: 100%;
+        max-width: 90%;
+        height: auto;
+        margin: 10px auto;
+        display: block;
+    }
+    .project h1{
+        font-size: 70px;
+    }
+    .box5 { width: 90%; margin: 10px auto; }
+}

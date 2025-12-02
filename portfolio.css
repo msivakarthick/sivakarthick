@@ -1,0 +1,1011 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* border: 2px solid purple; */
+}
+.bg-success{
+  background-image: url(./gif.gif) !important;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  /* min-height: 100vh; */
+}
+
+body{
+  /* border: 5px solid red; */
+  width: 100%;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.name h1{
+    font-size: 120px;
+    margin-top: 80px;
+}
+.name h5{
+    font-size: 50px;
+    margin-top: 30px;
+}
+.name p{
+    font-size: 25px;
+    width: 50%;
+    margin-top: 30px;
+}
+.con{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.con button{
+    padding: 5px 10px;
+    border:none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.con i{
+    position:absolute;
+    bottom:40px;
+    left: 80px;
+}
+marquee{
+    font-size: 150px;
+    margin-top: 50px;
+    font-weight: bold;
+    -webkit-text-stroke: 4px white;
+    color: transparent;
+    text-shadow: none;
+}
+.am{
+    color: white;;
+}
+.about h1{
+    margin-top: 50px;
+    font-size: 70px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.about i{
+    padding-left: 10px;
+}
+.about:hover i{
+    transform: rotate(50deg);
+    transition-duration: 3s;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    
+}
+.img1{
+    width: 50%;
+    padding-left: 10%;
+}
+.siva{
+    height: 400px;
+    width:50%;
+}
+.inner{
+    width:40%;
+}
+.inner h2{
+    width:80%
+}
+.inner p{
+    width:90%;
+    font-size: 20px;
+}
+.full{
+    color: lightblue;
+}
+.boxs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.gif{
+    display: flex;
+}
+.boy{
+    height:70px;
+    width:70px;
+}
+.html{
+    height:30px;
+    width:60px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: orange;
+}
+.one{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.picture{
+    width:40%;
+}
+.box4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.para{
+    width:35%;
+}
+.css{
+    height:30px;
+    width:60px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: purple;
+}
+.line1 img{
+    width:80%;
+    height:400px;
+    /* opacity: 0; */
+    
+}
+
+.react{
+    height:30px;
+    width:60px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: deeppink;
+}
+.java{
+    height:30px;
+    width:60px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: rgb(191, 188, 13);
+}
+.picture{
+    position: relative;
+}
+.project h1{
+    font-size: 50px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.images img{
+    width:18%;
+}
+.img6{
+    height: 420px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.img7{
+    height:480px;
+}
+.img2{
+    height: 500px;
+}
+.project h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    width:100%;
+    background-color: rgb(54, 50, 50);
+    height: 400px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    left: 13px;
+}
+.container1 img{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.box5{
+    position: relative;
+    height:700px;
+    width:20%;
+}
+.circle img{
+    width:110%;
+    position: absolute;
+    top:220px;
+    left: 0px;
+}
+.circle h1{
+    position: absolute;
+    top:400px;
+    left:120px;
+}
+.container1 h3{
+    position: absolute;
+    top: 267px;
+    left: 127px;
+}
+.all{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    flex-wrap: wrap;
+    /* width:100%; */
+    margin-top: 100px;
+}
+.info{
+    width:70%;
+    padding: 30px;
+}
+.last{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.in{
+    display: flex;
+    width:100%;
+}
+input{
+    min-width:40%;
+}
+.whole{
+    /* display: flex; */
+    width:100%;
+    justify-content: space-evenly;
+    /* margin-top: 100px; */
+    /* background-color: purple; */
+    /* flex-direction: column; */
+}
+.naga{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.first{
+    width:40%;
+}
+.second{
+    width:20%;
+}
+.Three{
+    width:20%;
+}
+.icon{
+    display: flex;
+}
+.icon i{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.blue{
+    color:rgb(53, 145, 176);
+}
+.spiral-container {
+    position: relative;
+    /* Acts as the center point */
+    width: 200px;
+    height: 200px;
+}
+
+.spoke {
+    /* Position all spokes at the center */
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+    /* Size and Style of a single line/dot */
+    width: 100px;
+    /* Length of the line */
+    height: 2px;
+    /* Thickness of the line */
+    background: linear-gradient(to right, #00CFFF, #000);
+    /* Blue to Black gradient */
+    border-radius: 50%;
+    /* Makes the spokes look like rounded dots/lines */
+
+    /* Important: Move the rotation point to the edge of the line,
+     so they rotate like a clock hand around a hidden center. */
+    transform-origin: 0% 50%;
+}
+
+/* Example rotations - you'd need many more for the full effect */
+.spoke-1 {
+    transform: rotate(0deg);
+}
+.spoke:hover{
+    transform: scale(1.3);
+}
+.spoke-2 {
+    transform: rotate(5deg);
+}
+
+.spoke-3 {
+    transform: rotate(10deg);
+}
+
+.spoke-4 {
+    transform: rotate(15deg);
+}
+
+.spoke-5 {
+    transform: rotate(20deg);
+}
+
+.spoke-6 {
+    transform: rotate(25deg);
+}
+
+.spoke-7 {
+    transform: rotate(30deg);
+}
+
+.spoke-8 {
+    transform: rotate(35deg);
+}
+
+.spoke-9 {
+    transform: rotate(40deg);
+}
+
+.spoke-10 {
+    transform: rotate(45deg);
+}
+
+.spoke-11 {
+    transform: rotate(50deg);
+}
+
+.spoke-12 {
+    transform: rotate(55deg);
+}
+
+.spoke-13 {
+    transform: rotate(60deg);
+}
+
+.spoke-14 {
+    transform: rotate(65deg);
+}
+
+.spoke-15 {
+    transform: rotate(70deg);
+}
+
+.spoke-16 {
+    transform: rotate(75deg);
+}
+
+.spoke-17 {
+    transform: rotate(80deg);
+}
+
+.spoke-18 {
+    transform: rotate(85deg);
+}
+
+.spoke-19 {
+    transform: rotate(90deg);
+}
+
+.spoke-20 {
+    transform: rotate(95deg);
+}
+
+.spoke-21 {
+    transform: rotate(100deg);
+}
+
+.spoke-22 {
+    transform: rotate(105deg);
+}
+
+.spoke-23 {
+    transform: rotate(110deg);
+}
+
+.spoke-24 {
+    transform: rotate(115deg);
+}
+
+.spoke-25 {
+    transform: rotate(120deg);
+}
+
+.spoke-26 {
+    transform: rotate(125deg);
+}
+
+.spoke-27 {
+    transform: rotate(130deg);
+}
+
+.spoke-28 {
+    transform: rotate(135deg);
+}
+
+.spoke-29 {
+    transform: rotate(140deg);
+}
+
+.spoke-30 {
+    transform: rotate(145deg);
+}
+
+.spoke-31 {
+    transform: rotate(150deg);
+}
+
+.spoke-32 {
+    transform: rotate(155deg);
+}
+
+.spoke-33 {
+    transform: rotate(160deg);
+}
+
+.spoke-34 {
+    transform: rotate(165deg);
+}
+
+.spoke-35 {
+    transform: rotate(170deg);
+}
+
+.spoke-36 {
+    transform: rotate(175deg);
+}
+
+.spoke-37 {
+    transform: rotate(180deg);
+}
+
+.spoke-38 {
+    transform: rotate(185deg);
+}
+
+.spoke-39 {
+    transform: rotate(190deg);
+}
+
+.spoke-40 {
+    transform: rotate(195deg);
+}
+
+.spoke-41 {
+    transform: rotate(200deg);
+}
+
+.spoke-42 {
+    transform: rotate(205deg);
+}
+
+.spoke-43 {
+    transform: rotate(210deg);
+}
+
+.spoke-44 {
+    transform: rotate(215deg);
+}
+
+.spoke-45 {
+    transform: rotate(220deg);
+}
+
+.spoke-46 {
+    transform: rotate(225deg);
+}
+
+.spoke-47 {
+    transform: rotate(230deg);
+}
+
+.spoke-48 {
+    transform: rotate(235deg);
+}
+
+.spoke-49 {
+    transform: rotate(240deg);
+}
+
+.spoke-50 {
+    transform: rotate(245deg);
+}
+
+.spoke-51 {
+    transform: rotate(250deg);
+}
+
+.spoke-52 {
+    transform: rotate(255deg);
+}
+
+.spoke-53 {
+    transform: rotate(260deg);
+} 
+.none{
+    color: white;
+    border: none;
+}
+.icon a{
+    border-bottom: none;
+    text-decoration: none;
+    color: white;
+}
+.second a{
+    border-bottom: none;
+    text-decoration: none;
+    color: white;
+}
+.red:hover{
+    color: lightskyblue;
+}
+.first h1{
+        color: rgb(15, 159, 207);
+    }
+    .photos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.photo-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.4s ease;
+  color: white;
+  text-decoration: none;
+}
+
+.photo-item img {
+  display: block;
+  width: 200px;
+  height: 320px;
+  border-radius: 10px;
+  transition: transform 0.4s ease;
+}
+
+.photo-item:hover img {
+  transform: scale(1.05);
+  opacity: 0.6;
+}
+.num{
+    clip-path: path(M 20,20 L 0,0 L 20,20 L 0,0 Z);
+    clip-path: path(A 20, 20,0,0,0);
+}
+.nav-item:hover{
+    border-bottom: 2px solid rgb(57, 184, 201);
+    box-shadow: a10 px solid rgb(80, 157, 182);
+}
+.Orange{
+    height: 400px;
+    width:20px;
+    background-color: orange;
+}
+iframe{
+    width:600px;
+    height:500px;
+}
+.play{
+     clip-path: polygon(
+        0% 10%,      /* Top-left: Start 10% down */
+        15% 0%,      /* Top-left: Angle in from 10% right */
+        100% 0%,     /* Top-right: Straight across */
+        100% 95%,    /* Bottom-right: Straight down to 90% */
+        85% 100%,    /* Bottom-right: Angle in from 90% right */
+        0% 100%      /* Bottom-left: Straight across */
+    ) ;
+    border: 2px solid rgb(16, 128, 165) !important;
+}
+.social-sidebar {
+    /* Existing positioning code */
+    position: absolute;
+    top: 37%;
+    /* left: 10px; */
+    transform: translateY(-50%);
+    
+    /* Content Layout */
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+    align-items: center;
+    padding: 30px 15px; 
+    
+    /* Visual Styling */
+    width: 70px; 
+    height: 300px;
+    box-sizing: border-box;
+
+    /* 1. Dark Gradient Background */
+    background: linear-gradient(
+        90deg, 
+        rgb(81, 128, 132) 0%, 
+        rgb(68, 121, 129) 100%
+    );
+
+clip-path: polygon(
+        0% 0%, 
+        59% 0%, 
+        92% 6%, 
+        100% 10%, 
+        100% 25%, 
+        100% 50%, 
+        100% 75%, 
+        100% 90%, 
+        60% 97%, 
+        23% 100%, 
+        0% 100%
+    )
+}
+.social-sidebar i{
+    color: white;
+    font-size: 30px;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo h1{
+    border: 2px solid white;
+    padding: 20px;
+    width:70%;
+    text-align: center;
+}
+.saravana{
+    color:gray;
+    margin-left: 20px;
+}
+.second h2{
+    color: rgb(42, 146, 181);
+}
+.Three h2{
+    color:rgb(42, 146, 181);
+}
+.first h1{
+    font-size: 50px;
+    justify-content: start;
+}
+.first p{
+    font-size: 20px;
+}
+.second h1{
+    font-size: 50px;
+    color: rgb(52, 162, 199);
+    justify-content: start;
+}
+.Three h1{
+    font-size: 50px;
+    color: rgb(52, 162, 199);
+}
+@media only screen and (min-width:300px) and (max-width:600px){
+    body{
+        width:100% !important;
+        padding-right: 0px;
+
+    }
+    .social-sidebar i{
+    color: white;
+    font-size: 20px;
+}
+    .photo h1{
+    border: 2px solid white;
+    padding: 10px;
+    width:95%;
+    text-align: center;
+}
+    iframe{
+        width:300px;
+        height:300px;
+}
+    marquee{
+        font-size: 70px;
+    }
+    .name h1{
+        font-size: 30px;
+        width: 70%;
+    }
+    .bg-success{
+        width:100%;
+    }
+    .projects h1{
+        font-size: 30px;
+        justify-content: start;
+    }
+    .box2{
+        display: unset;
+        width:100%;
+    }
+    .img1{
+        width:100%;
+    }
+    .inner{
+        width:100%;
+    }
+    .box4{
+        display: unset;
+        width: 100%;
+    }
+    .one{
+        width: 100%;
+    }
+    .images{
+        display: unset;
+    }
+    .all{
+        display: unset;
+        width:100%;
+    }
+    .img{
+        width: 100%;
+        height: 500px;
+    }
+    marquee{
+        margin-top: 20px;
+    }
+    .about button{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .name p{
+        width:90%;
+    }
+    .siva{
+        width:100%;
+    }
+    .img1{
+        margin-left: 70px;
+        width: 70%;
+    }
+    .inner{
+        padding: 20px;
+    }
+    .line1 img{
+        width:300px;
+    }
+    .width{
+        width: 150px !important;
+        margin-top: 10px;
+    }
+    .para{
+        width:100%;
+        padding: 20px;
+    }
+    .images img{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .whole{
+        display: unset;
+    }
+    .container1{
+        width:250px;
+        margin-left: 20px;
+    }
+    .circle img{
+        width: 280px;
+        margin-left: 20px;
+    }
+    .all{
+        margin-left: 50px;
+    }
+    .container1 img{
+        margin-left: 50px;
+    }
+    .container1 h3 {
+    position: absolute;
+    top: 297px;
+    left: 100px;
+    }
+    .circle h1 {
+    position: absolute;
+    top: 404px;
+    left: 133px;
+    }
+    .box5 {
+    position: relative;
+    height: 507px;
+    width: 20%;
+    }
+    .w-50{
+        width: 100% !important;
+    }
+    .p-5{
+        padding: 20px !important;
+    }
+    .first{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .second{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .Three{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .name h5{
+        font-size: 30px;
+    }
+    .naga{
+        display: unset;
+    }
+    .about h1{
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:900px){
+    body{
+        width:100% !important;
+        padding-right: 0px;
+    }
+    .photo h1{
+    border: 2px solid white;
+    padding: 20px;
+    width:60%;
+    text-align: center;
+}
+    .naga{
+        display: unset;
+    }
+    .name h1{
+        font-size: 30px;
+        width: 70%;
+    }
+    .bg-success{
+        width:100%;
+    }
+    .project h1{
+        font-size: 30px;
+    }
+    .box2{
+        display: unset;
+        width:100%;
+    }
+    .img1{
+        width:100%;
+    }
+    .inner{
+        width:100%;
+    }
+    .box4{
+        display: unset;
+        width: 100%;
+    }
+    .one{
+        width: 100%;
+    }
+    /* .images{
+        display: unset;
+    } */
+    .img{
+        width: 100%;
+        height: 500px;
+    }
+    marquee{
+        margin-top: 20px;
+    }
+    .about button{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .name p{
+        width:90%;
+    }
+    .siva{
+        width:100%;
+    }
+    .img1{
+        margin-left: 70px;
+        width: 70%;
+    }
+    .inner{
+        padding: 20px;
+    }
+    .line1 img{
+        width:500px;
+        margin-left: 40%;
+    }
+    .width{
+        width: 150px !important;
+        margin-top: 10px;
+    }
+    .para{
+        width:100%;
+        padding: 20px;
+    }
+    .images img{
+        width: 40%;
+        margin-left: 20px;
+    }
+    .whole{
+        display: unset;
+    }
+    .container1{
+        width:250px;
+        margin-left: 20px;
+    }
+    .circle img{
+        width: 280px;
+        margin-left: 20px;
+    }
+    .all{
+        display: unset;
+    }
+    .container1 img{
+        margin-left: 50px;
+    }
+    .container1 h3 {
+    position: absolute;
+    top: 297px;
+    left: 100px;
+    }
+    .circle h1 {
+    position: absolute;
+    top: 404px;
+    left: 133px;
+    }
+    .box5 {
+    position: relative;
+    height: 507px;
+    width: 20%;
+    margin-left: 30%;
+    }
+    .w-50{
+        width: 100% !important;
+    }
+    .p-5{
+        padding: 20px !important;
+    }
+    .first{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .second{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .Three{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .name h5{
+        font-size: 30px;
+    }
+}
